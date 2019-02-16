@@ -1,0 +1,22 @@
+<view class='container'>
+    <view class="board">
+        <animated-label text='{{hour1}}'/>
+    </view>
+    <view class="board" style="margin-left:6rpx;">
+        <animated-label text='{{hour2}}'/>
+    </view>
+    <image class='colon' src="./images/lottery_number_colon.png" style="margin-left:8rpx;margin-right:8rpx;"/>
+    <view class="board">
+        <animated-label text='{{minute1}}'/>
+    </view>
+    <view class="board" style="margin-left:6rpx;">
+        <animated-label text='{{minute2}}'/>
+    </view>
+    <image class='colon' src="./images/lottery_number_colon.png" style="margin-left:8rpx;margin-right:8rpx;"/>
+    <view class="board">
+        <animated-label text='{{second1}}'/>
+    </view>
+    <view class="board" style="margin-left:6rpx;">
+        <animated-label text='{{second2}}'/>
+    </view>
+</view>

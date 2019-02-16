@@ -1,0 +1,33 @@
+@import "./common.wxss";
+@import "./reset.wxss";
+
+
+.container {
+  width: 370rpx;
+  height: 82rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  width: 50rpx;
+  height: 82rpx;
+  background: #FFCF2C;
+  border-radius: 6rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  width: 36rpx;
+  height: 66rpx;
+}
+
+.colon {
+  height: 26rpx;
+  width: 8rpx;
+}

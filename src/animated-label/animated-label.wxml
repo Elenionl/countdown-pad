@@ -1,0 +1,4 @@
+<view class="container" >
+    <image src="../images/lottery_number_{{flipped?value1:value2}}.png" animation="{{flipped?animation1:animation2}}" class='text'/>
+    <image src="../images/lottery_number_{{flipped?value2:value1}}.png" animation="{{flipped?animation2:animation1}}" class='text'/>
+</view>

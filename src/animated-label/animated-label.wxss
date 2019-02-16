@@ -1,0 +1,14 @@
+.container {
+  width: 36rpx;
+  height: 66rpx;
+  position: relative;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  left: 0rpx;
+  top: 0rpx;
+  height: 66rpx;
+  width: 36rpx;
+}
