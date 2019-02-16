@@ -81,7 +81,6 @@ Time left to disply in ms.
 
 用于展示的剩余时间（单位：毫秒）
 
-
 * `autoCount: Boolean`
 
 `default value: false`
